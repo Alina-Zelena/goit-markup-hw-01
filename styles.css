@@ -20,9 +20,9 @@ p {
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 18 px;
+    font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03 em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
@@ -30,9 +30,9 @@ p {
 .logo-web-studio {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 18 px;
+    font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03 em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
 }
@@ -48,22 +48,22 @@ p {
 .header-list {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 16 px;
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02 em;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.header-list :hover
-.header-list :focus {
+.header-list:hover
+.header-list:focus {
 color: #404bbf;
 }
 
 .navigation-list {
     font-weight: 500;
-    font-size: 16 px;
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02 em;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -72,20 +72,20 @@ color: #404bbf;
 }
 
 .contact {
-  font-size: 16 px;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02 em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
-.navigation-list :hover,
-.navigation-list :focus,
-.contact-list :hover,
-.contact-list :focus {
+.navigation-list:hover,
+.navigation-list:focus,
+.contact-list:hover,
+.contact-list:focus {
   color: #404bbf;
 }
 
-<!--Hero-->
+/*Hero*/
 
 .tagline-img {
     background: #2e2f42;  
@@ -93,27 +93,27 @@ color: #404bbf;
 
 .tagline-text {
   font-weight: 700;
-  font-size: 56 px;
+  font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02 em;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
 .tagline-button {
   font-weight: 500;
-  font-size: 16 px;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04 em;
+  letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
   background-color: #4d5ae5; 
 }
- .tagline-button :hover {
+ .tagline-button:hover {
   background-color: #404bbf;
  }
 
- <!--Advantages-->
+ /*Advantages*/
 
 .advantages {
 
@@ -128,30 +128,30 @@ color: #404bbf;
 
 .advantages-header {
   font-weight: 500;
-  font-size: 20 px;
+  font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02 em;
+  letter-spacing: 0.02em;
   color: #2e2f42; 
 }
 
 .advantages-text {
   font-weight: 400;
-  font-size: 16 px;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02 em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
-<!--Our Team-->
+/*Our Team*/
 .team {
     background: #f4f4fd;
   }
   
   .team-title {
     font-weight: 700;
-    font-size: 36 px;
+    font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02 em;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
@@ -169,31 +169,31 @@ color: #404bbf;
   
   .team-subtitle {
     font-weight: 500;
-    font-size: 20 px;
+    font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02 em;
+    letter-spacing: 0.02em;
     text-align: left;
     color: #2e2f42;
   }
   
   .team-item-text {
-    font-size: 16 px;
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02 em;
+    letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
   }
 
-  <!--Portfolio-->
+  /*Portfolio*/
 
   .portfolio {
-}
+  }
 
 .portfolio-title {
   font-weight: 700;
-  font-size: 36 px;
+  font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02 em;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
@@ -210,29 +210,44 @@ color: #404bbf;
 
 .portfolio-subtitle {
   font-weight: 500;
-  font-size: 20 px;
+  font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02 em;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .portfolio-item-text {
-  font-size: 16 px;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02 em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
-<!--Footer-->
+/*Footer*/
 .footer-frame {
   background: #2e2f42;  
 }
 
 .footer-text {
-    font-size: 16 px;
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02 em;
+    letter-spacing: 0.02em;
     color: #f4f4fd;  
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+    text-decoration: none;
+}
+
+.footer-logo:hover {
+    color: #2e2f42; 
 }
 
 .tagline-button :hover,
