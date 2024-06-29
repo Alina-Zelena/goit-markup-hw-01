@@ -1,11 +1,16 @@
 .body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 
-.ul {
+.ul,
+ ol {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .p {
@@ -13,21 +18,21 @@
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 18 px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03 em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
 
 .logo-web-studio {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 18 px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03 em;
     text-transform: uppercase;
     color: #2e2f42;
 }
@@ -36,16 +41,16 @@
     color: #f4f4fd;
 }
 
-.adress {
+.address {
     font-style: normal;
 }
 
 .header-list {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16 px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02 em;
     color: #2e2f42;
 }
 
@@ -56,9 +61,9 @@ color: #404bbf;
 
 .navigation-list {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16 px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02 em;
     color: #2e2f42;
 }
 
@@ -67,9 +72,9 @@ color: #404bbf;
 }
 
 .contact {
-  font-size: 16px;
+  font-size: 16 px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02 em;
   color: #434455;
 }
 
@@ -88,18 +93,18 @@ color: #404bbf;
 
 .tagline-text {
   font-weight: 700;
-  font-size: 56px;
+  font-size: 56 px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02 em;
   text-align: center;
   color: #fff;
 }
 
 .tagline-button {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 16 px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.04 em;
   color: #fff;
   cursor: pointer;
   background-color: #4d5ae5; 
@@ -123,17 +128,17 @@ color: #404bbf;
 
 .advantages-header {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 20 px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02 em;
   color: #2e2f42; 
 }
 
 .advantages-text {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 16 px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02 em;
   color: #434455;
 }
 
@@ -144,9 +149,9 @@ color: #404bbf;
   
   .team-title {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 36 px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02 em;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
@@ -164,17 +169,17 @@ color: #404bbf;
   
   .team-subtitle {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 20 px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02 em;
     text-align: left;
     color: #2e2f42;
   }
   
   .team-item-text {
-    font-size: 16px;
+    font-size: 16 px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02 em;
     text-align: left;
     color: #434455;
   }
@@ -186,9 +191,9 @@ color: #404bbf;
 
 .portfolio-title {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 36 px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02 em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
@@ -205,16 +210,16 @@ color: #404bbf;
 
 .portfolio-subtitle {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 20 px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02 em;
   color: #2e2f42;
 }
 
 .portfolio-item-text {
-  font-size: 16px;
+  font-size: 16 px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02 em;
   color: #434455;
 }
 
@@ -224,9 +229,9 @@ color: #404bbf;
 }
 
 .footer-text {
-    font-size: 16px;
+    font-size: 16 px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02 em;
     color: #f4f4fd;  
 }
 
