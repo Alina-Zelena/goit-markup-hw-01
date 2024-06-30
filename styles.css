@@ -21,7 +21,8 @@ p {
     margin: 0;
 }
 
-.logo, .logo-studio {
+.header-logo, 
+.logo-footer {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -30,11 +31,11 @@ p {
     text-transform: uppercase;
 }
 
-.logo {
+.header-studio {
     color: #4d5ae5;
 }
 
-.logo-web-studio {
+.logo-studio {
     color: #2e2f42;
 }
 
@@ -42,7 +43,9 @@ p {
     font-style: normal;
 }
 
-.header-list, .contact {
+.header-menu-list, 
+.header-contact-list
+{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -51,8 +54,10 @@ p {
     color: #2e2f42;
 }
 
-.header-list:hover, .header-list:focus,
-.contact:hover, .contact:focus {
+.header-menu-list:hover, 
+.header-menu-list:focus,
+.header-contact-list:hover, 
+.header-contact-list:focus {
     color: #404bbf;
 }
 
@@ -72,7 +77,7 @@ p {
 .tagline-text {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
